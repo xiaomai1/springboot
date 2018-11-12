@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!--namespace 和接口的全类名对应  包名+类名 -->
+<mapper namespace="com.xiaomai.dao.UserDao">
+
+    <select id="queryAll" resultType="com.xiaomai.entity.User">
+       select * from emp_user
+    </select>
+
+
+
+
+
+
+
+</mapper>
+
+
+
+
+
